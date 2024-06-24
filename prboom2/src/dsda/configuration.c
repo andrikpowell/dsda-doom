@@ -577,6 +577,10 @@ dsda_config_t dsda_config[dsda_config_count] = {
     "mapcolor_hair", dsda_config_mapcolor_hair,
     CONF_COLOR(208), &mapcolor_hair
   },
+  [dsda_config_mapcolor_hair2] = {
+    "mapcolor_hair2", dsda_config_mapcolor_hair2,
+    CONF_COLOR(248), &mapcolor_hair2
+  },
   [dsda_config_mapcolor_sngl] = {
     "mapcolor_sngl", dsda_config_mapcolor_sngl,
     CONF_COLOR(208), &mapcolor_sngl
@@ -593,6 +597,34 @@ dsda_config_t dsda_config[dsda_config_count] = {
     "mapcolor_frnd", dsda_config_mapcolor_frnd,
     CONF_COLOR(112), &mapcolor_frnd
   },
+  [dsda_config_mapcolor_magic_sec_tag_min] = {
+    "mapcolor_magic_sec_tag_min", dsda_config_mapcolor_magic_sec_tag_min,
+    CONF_COLOR(168), &mapcolor_magic_sec_tag_min
+  },
+  [dsda_config_mapcolor_magic_sec_tag_max] = {
+    "mapcolor_magic_sec_tag_max", dsda_config_mapcolor_magic_sec_tag_max,
+    CONF_COLOR(180), &mapcolor_magic_sec_tag_max
+  },
+  [dsda_config_mapcolor_magic_sec_untag_min] = {
+    "mapcolor_magic_sec_untag_min", dsda_config_mapcolor_magic_sec_untag_min,
+    CONF_COLOR(80), &mapcolor_magic_sec_untag_min
+  },
+  [dsda_config_mapcolor_magic_sec_untag_max] = {
+    "mapcolor_magic_sec_untag_max", dsda_config_mapcolor_magic_sec_untag_max,
+    CONF_COLOR(98), &mapcolor_magic_sec_untag_max
+  },
+  [dsda_config_mapcolor_magic_line_min] = {
+    "mapcolor_magic_line_min", dsda_config_mapcolor_magic_line_min,
+    CONF_COLOR(112), &mapcolor_magic_line_min
+  },
+  [dsda_config_mapcolor_magic_line_max] = {
+    "mapcolor_magic_line_max", dsda_config_mapcolor_magic_line_min,
+    CONF_COLOR(124), &mapcolor_magic_line_max
+  },
+  //[dsda_config_mapcolor_magic_refresh_max] = {
+  //  "mapcolor_magic_refresh_max", dsda_config_mapcolor_magic_refresh_max,
+  //  CONF_COLOR(2), &mapcolor_magic_refresh_max
+  //},
   [dsda_config_gl_blend_animations] = {
   "gl_blend_animations", dsda_config_gl_blend_animations,
   CONF_BOOL(0), &gl_blend_animations
@@ -1066,6 +1098,10 @@ dsda_config_t dsda_config[dsda_config_count] = {
     "map_lines_overlay_trans", dsda_config_map_lines_overlay_trans,
     dsda_config_int, 0, 100, { 100 }, NULL, NOT_STRICT, gld_ResetAutomapTransparency
   },
+//  [dsda_config_map_magicsector] = {
+//    "selecting_magic_sector", dsda_config_map_magicsector,
+//    CONF_BOOL(0), NULL, STRICT_INT(0), M_ChangeMagicMode
+//  },
   [dsda_config_map_things_appearance] = {
     "map_things_appearance", dsda_config_map_things_appearance,
     dsda_config_int, 0, map_things_appearance_max - 1, { map_things_appearance_max - 1 },

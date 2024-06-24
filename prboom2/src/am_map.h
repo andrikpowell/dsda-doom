@@ -131,9 +131,17 @@ extern int mapcolor_item;     // item sprite color
 extern int mapcolor_enemy;    // enemy sprite color
 extern int mapcolor_frnd;     // friendly sprite color
 extern int mapcolor_hair;     // crosshair color
+extern int mapcolor_hair2;    // crosshair 2 color
 extern int mapcolor_sngl;     // single player arrow color
 extern int mapcolor_plyr[4];  // colors for players in multiplayer
 extern int mapcolor_me;       // consoleplayer's chosen colour
+extern int mapcolor_magic_sec_tag_min;
+extern int mapcolor_magic_sec_tag_max;
+extern int mapcolor_magic_sec_untag_min;
+extern int mapcolor_magic_sec_untag_max;
+extern int mapcolor_magic_line_min;
+extern int mapcolor_magic_line_max;
+extern int mapcolor_magic_refresh_max;
 
 void M_ChangeMapTextured(void);
 void M_ChangeMapMultisamling(void);

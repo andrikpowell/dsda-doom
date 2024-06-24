@@ -224,6 +224,7 @@ cfg_def_t cfg_defs[] =
   MIGRATED_SETTING(dsda_config_mapcolor_sprt),
   MIGRATED_SETTING(dsda_config_mapcolor_item),
   MIGRATED_SETTING(dsda_config_mapcolor_hair),
+  MIGRATED_SETTING(dsda_config_mapcolor_hair2),
   MIGRATED_SETTING(dsda_config_mapcolor_sngl),
   MIGRATED_SETTING(dsda_config_mapcolor_me),
   MIGRATED_SETTING(dsda_config_mapcolor_enemy),
@@ -247,6 +248,12 @@ cfg_def_t cfg_defs[] =
   MIGRATED_SETTING(dsda_config_map_textured_overlay_trans),
   MIGRATED_SETTING(dsda_config_map_lines_overlay_trans),
   MIGRATED_SETTING(dsda_config_map_things_appearance),
+  MIGRATED_SETTING(dsda_config_mapcolor_magic_sec_tag_min),
+  MIGRATED_SETTING(dsda_config_mapcolor_magic_sec_tag_max),
+  MIGRATED_SETTING(dsda_config_mapcolor_magic_sec_untag_min),
+  MIGRATED_SETTING(dsda_config_mapcolor_magic_sec_untag_max),
+  MIGRATED_SETTING(dsda_config_mapcolor_magic_line_min),
+  MIGRATED_SETTING(dsda_config_mapcolor_magic_line_max),
 
   SETTING_HEADING("Heads-up display settings"),
   MIGRATED_SETTING(dsda_config_hud_health_red),
@@ -434,6 +441,7 @@ cfg_input_def_t input_defs[] = {
   INPUT_SETTING("input_map_rotate", dsda_input_map_rotate, 'r', -1, -1),
   INPUT_SETTING("input_map_overlay", dsda_input_map_overlay, 'o', -1, -1),
   INPUT_SETTING("input_map_textured", dsda_input_map_textured, 0, -1, -1),
+  INPUT_SETTING("input_map_magicsector", dsda_input_map_magicsector, 0, -1, -1),
 
   INPUT_SETTING("input_repeat_message", dsda_input_repeat_message, 0, -1, -1),
 

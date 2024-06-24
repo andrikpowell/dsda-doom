@@ -581,6 +581,9 @@ extern const char* s_AMSTR_OVERLAYOFF;
 extern const char* s_AMSTR_TEXTUREDON;
 extern const char* s_AMSTR_TEXTUREDOFF;
 
+extern const char* s_AMSTR_MAGICSECTORON;
+extern const char* s_AMSTR_MAGICSECTOROFF;
+
 //
 //      ST_stuff.C
 //

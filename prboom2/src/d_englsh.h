@@ -326,6 +326,9 @@
 #define AMSTR_TEXTUREDON   "Textured Mode ON"
 #define AMSTR_TEXTUREDOFF  "Textured Mode OFF"
 
+#define AMSTR_MAGICSECTORON  "MagicSector Mode ON"
+#define AMSTR_MAGICSECTOROFF  "MagicSector Mode OFF"
+
 /* st_stuff.c */
 
 #define STSTR_MUS       "Music Change"
